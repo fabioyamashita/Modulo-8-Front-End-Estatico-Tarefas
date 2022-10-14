@@ -1,4 +1,4 @@
-# Módulo 8 - Front End Estático - Tarefa
+# Módulo 8 - Front End Estático - Tarefas
 
 ## Exercício 1 - HTML (linkedin-clone - 10/10/2022)
 
