@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  GENERAL SETTINGS */
+body {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  width: 782px;
+  margin: 2rem auto;
+
+  color: #495057;
+  background-color: #f8f9fa;
+
+  line-height: 1.5;
+}
+
+@media (max-width: 80rem) {
+  body {
+    width: 65vw;
+  }
+}
+
+@media (max-width: 60rem) {
+  body {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 45rem) {
+  body {
+    width: 95vw;
+  }
+  .background-picture {
+    height: 150px;
+  }
+}
+
+/* HEADER SETTINGS */
+.background-picture {
+  width: 100%;
+  background-size: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.photo-container {
+  padding: 0 1.5rem 0 1.5rem;
+
+  display: flex;
+  height: 50px;
+}
+
+.profile-picture {
+  height: 152px;
+  width: 152px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  transform: translate(0, -75%);
+}
+
+/* .btn-edit-profile {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  border: 0;
+  background-color: #fff;
+  margin: auto 0 auto auto;
+  cursor: pointer;
+}
+
+.edit-profile-icon {
+  height: 22px;
+  width: 22px;
+  stroke: #495057;
+}
+
+.btn-edit-profile:hover {
+  background-color: #e9ecef;
+} */
+
+.header-details {
+  padding: 0 1.5rem 1rem 1.5rem;
+  line-height: 1.3;
+}
+
+.header-name {
+  font-size: 1.375rem;
+  font-weight: 600;
+}
+
+.header-description {
+  font-size: 0.9375rem;
+  margin-bottom: 0.5rem;
+}
+
+.header-location {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-info {
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: #1c7ed6;
+  font-weight: 600;
+}
+
+.contact-info:link,
+.contact-info:visited {
+  text-decoration: none;
+}
+
+.contact-info:hover,
+.contact-info:active {
+  text-decoration: underline;
+}
+
+.connections {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+/* TOPICS SETTINGS */
+h2 {
+  font-size: 1.25rem;
+  padding: 1.5rem 1.5rem 0.25rem 1.5rem;
+  font-weight: 600;
+}
+
+header,
+.topic {
+  border: 1px solid #ced4da;
+  border-radius: 0.5rem;
+
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
+
+  box-shadow: 0 0.75rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+.experience {
+  font-size: 0.875rem;
+  padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+
+  display: flex;
+}
+
+.experience-details {
+  padding-left: 0.75rem;
+}
+
+.logo-company:link,
+.logo-company:visited {
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.header-location,
+.connections,
+.date,
+.location {
+  color: #868e96;
+}
+
+.location {
+  margin-bottom: 0.75rem;
+}
+
+hr {
+  background-color: #e9ecef;
+  height: 1px;
+  border: 0;
+}
+
+li {
+  margin-left: 1.125rem;
+  line-height: 1.4;
+}
+
+.text {
+  padding: 0.25rem 1.5rem 0.75rem 1.5rem;
+  font-size: 0.875rem;
+}
