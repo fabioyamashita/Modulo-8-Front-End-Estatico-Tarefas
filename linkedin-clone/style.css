@@ -66,8 +66,8 @@ body {
   }
 
   .profile-picture {
-    max-height: 6.5rem;
-    max-width: 6.5rem;
+    max-height: 7rem;
+    max-width: 7rem;
     transform: translate(0, -75%);
   }
 
