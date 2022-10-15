@@ -42,7 +42,7 @@ body {
   background-size: cover;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
-  height: 200px;
+  max-height: 200px;
 }
 
 .photo-container {
@@ -62,12 +62,12 @@ body {
 
 @media (max-width: 45rem) {
   .background-picture {
-    max-height: 120px;
+    /* max-height: 120px; */
   }
 
   .profile-picture {
-    height: 125px;
-    width: 125px;
+    max-height: 125px;
+    max-width: 125px;
     transform: translate(0, -80%);
   }
 
