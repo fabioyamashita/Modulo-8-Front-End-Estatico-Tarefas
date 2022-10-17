@@ -40,8 +40,6 @@ body {
 .background-picture {
   width: 100%;
   background-size: cover;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
   max-height: 200px;
 }
 
@@ -259,6 +257,8 @@ header,
   margin-bottom: 0.5rem;
 
   box-shadow: 0 0.75rem 1rem rgba(0, 0, 0, 0.05);
+
+  overflow: hidden;
 }
 
 .experience {
