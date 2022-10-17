@@ -294,8 +294,10 @@ h3 {
 }
 
 hr {
+  align-self: center;
   background-color: #e9ecef;
   height: 1px;
+  width: 93.5%;
   border: 0;
 }
 
