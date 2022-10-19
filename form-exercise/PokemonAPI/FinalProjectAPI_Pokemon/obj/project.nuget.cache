@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "knDpqJ/1mg7O+RP03D/EgvYY+cbG0VED1jBI5CmkGVPTmqN78CL4RD4TdcxIexX9egWvUORhEhrhmQNGgeakhA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yamas\\Documents\\Programação\\C#\\Curso-Completo-Lets-Code-Safra\\Modulo-5-Tarefas\\FinalProjectAPI_JSON\\FinalProjectAPI_Pokemon\\FinalProjectAPI_Pokemon.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yamas\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\yamas\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\yamas\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\yamas\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\yamas\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\yamas\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

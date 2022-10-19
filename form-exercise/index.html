@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script defer src="script.js"></script>
+    <title>Exercise 2 - Form</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <form
+          class="form-1"
+          action="https://localhost:44332/api/Pokemon/list"
+          method="get"
+        >
+          <div>
+            <label for="page">Page</label>
+            <input id="page" type="number" name="page" />
+          </div>
+          <div>
+            <label for="page-size">Page Size</label>
+            <input id="page-size" type="number" name="pageSize" />
+          </div>
+          <button type="reset">Reset</button>
+          <button type="submit">Get Pokemons</button>
+        </form>
+      </section>
+      <section>
+        <form class="form-2">
+          <div>
+            <label for="Id">Pokémon ID</label>
+            <input id="Id" type="number" name="Id" />
+          </div>
+          <button type="reset">Reset</button>
+          <button type="submit">Add Pokemon</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
