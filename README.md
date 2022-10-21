@@ -16,7 +16,7 @@ Usei um dos trabalhos do módulo 6 (Pokémon API) para testar alguns endpoints c
 
 Criei dois forms, um para o método GET (trazer pokémons por paginação) e outro para o Método POST (criar pokémon na lista).
 
-## Exercício 3 - Semantic HTML (semantic-html - 21/10/2022)
+## Exercício 3 - Semantic HTML (semantic-html - 19/10/2022)
 
 ### Enunciado
 
